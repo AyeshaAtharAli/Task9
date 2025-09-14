@@ -8,7 +8,7 @@ import joblib # To save and load the model
 # Load the data
 @st.cache_data
 def load_data():
-    df = pd.read_csv('/content/drive/MyDrive/data_for_streamlit.csv')
+    df = pd.read_csv('data_for_streamlit.csv')
     return df
 
 # Load the model (assuming it's saved as 'model.pkl')
